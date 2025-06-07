@@ -6,6 +6,6 @@
       "@workspace/ui/*": ["./src/*"]
     }
   },
-  "include": ["."],
+  "include": [".", "../../apps/admin/components/mode-toggle.tsx"],
   "exclude": ["node_modules", "dist"]
 }
